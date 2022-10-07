@@ -63,6 +63,9 @@ public class Application {
         
         scanner.close();
 
+        int mul_div = calculator.multiple(add, sub);
+        System.out.println("mul_div = " + mul_div);
+
     }
 
     static class Calculator{
